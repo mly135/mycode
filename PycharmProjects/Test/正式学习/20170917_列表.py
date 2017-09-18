@@ -2,8 +2,6 @@
 
 list = ["zhangsan","lisi","wangwu","zhaoliu"]
 
-
-
 print list
 
 
@@ -26,6 +24,8 @@ print list[3]
 temp = []
 i = 0
 
+
+
 while i < len(list):
     temp.append(list[i])
     temp.append(age[i])
@@ -45,5 +45,20 @@ while k < len(temp):
 #测试插入，其他数据后移
 #temp.insert(5,"测试位")
 print temp
+
+
+
+result = ['zhangsan', 12, 'lisi', 13, 'wangwu', 14, 'zhaoliu', 15, 'mly', 16, 'chaochao', 17,["chaochao1"["chaochao2","chaochao3"]]]
+
+
+
+for i in result:
+    if isinstance(i, list):
+        for j in i:
+            print j
+    else:
+        print i
+
+
 
 

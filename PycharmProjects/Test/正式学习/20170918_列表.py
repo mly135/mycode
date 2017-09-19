@@ -1,6 +1,7 @@
 #coding=utf-8
 
 
+
 result = ['zhangsan', 12, 'lisi', 13, 'wangwu', 14, 'zhaoliu', 15, 'mly', 16, 'chaochao', 17,["chaochao1",["chaochao2","chaochao3"]]]
 
 #多曾嵌套，循环的不完善
@@ -17,11 +18,20 @@ def foreach(li):
         if isinstance(i, list):
             foreach(i)
         else:
-            print i
+            print (i)
+
+
+# for j in result:
+#     if isinstance(j, list):
+#         foreach(j)
+#     else:
+#         print j
+
+import mlytest
 
 
 for j in result:
     if isinstance(j, list):
-        foreach(j)
+        mlytest.foreach(j)
     else:
-        print j
+        print (j)

@@ -12,7 +12,7 @@ result = ['zhangsan', 12, 'lisi', 13, 'wangwu', 14, 'zhaoliu', 15, 'mly', 16, 'c
     # else:
     #     print i
 
-# 循环遍历,晚上遍历不完善情况
+# 循环遍历,使用递归方式
 def foreach(li):
     for i in li:
         if isinstance(i, list):
@@ -35,3 +35,5 @@ for j in result:
         mlytest.foreach(j)
     else:
         print (j)
+
+

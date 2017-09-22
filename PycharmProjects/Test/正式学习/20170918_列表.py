@@ -35,5 +35,3 @@ for j in result:
         mlytest.foreach(j)
     else:
         print (j)
-
-

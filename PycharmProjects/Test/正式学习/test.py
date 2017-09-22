@@ -1,4 +1,4 @@
-
-
-
-print ("中国®")
+man:kfdkfjkdf
+boy: fuck you
+man: fuck you to
+boy: aaaaaaa

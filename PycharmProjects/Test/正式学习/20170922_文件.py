@@ -14,3 +14,5 @@ for foreach in file:
 for foreach in file:
     # print(foreach,end='')
     print(foreach.split(":"))
+
+file.close()
